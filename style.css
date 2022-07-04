@@ -1,3 +1,38 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 3%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.hire-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgba(255, 153, 0, 0.829), rgba(255, 208, 0, 0.829));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.welcome-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
